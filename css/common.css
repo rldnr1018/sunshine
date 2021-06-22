@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+
+
+
+/* 헤더 구역 */
+
+
+#header .logo{position: relative;}
+#header .logo h1{position: absolute; top: 17px; left: 400px;}
+
+#nav{position: relative;}
+#nav .depth1{position: absolute; 
+    top: 10px; left: 40%; 
+    border: px solid black; 
+    width:800px; 
+    line-height: 90px; 
+    text-align: center; 
+    margin-left: -40px;
+    
+}
+#nav .depth1 > li{float: left; 
+    width: 20%;
+    position: relative;
+    
+}
+
+#nav .depth1 > li > a{
+    font-size: 17px; 
+    color: #555; 
+    font-weight: bold;
+    display: block;
+    
+}
+ #nav .depth2 {position: absolute; top: 89%; left: -30px;
+    width: 220px;
+    border: px solid #000;
+    text-align: center;
+    line-height:40px;
+    font-size: 12px; color: #555;
+    font-weight: bold;
+    height: 0; overflow: hidden; opacity: 0;
+    z-index: 99;
+    transition: all 0.3s;
+}
+#nav .depth2 > li {background-color: #fff; }
+
+#nav .depth2 > li > a {display:block; transition: all 0.2s;}
+
+
+#nav .depth1 > li:hover > .depth2 {height: 120px; opacity: 1;}
+
+#nav .depth2 > li:hover > a {background-color: #397dda; color: #fff;}
+
+
+/* 헤더 구역 */
+
+
+
+
+
+/* 푸터 구역 */
+
+#footer{width: 100%;
+    padding: 20px 0 10px 0;
+    background: #303030;
+    text-align: center;
+}
+#footer .info {
+    font-size: 13px;
+    font-weight: 600;
+    color: #cccccc;
+}
+#footer .info a {padding: 0 10px;}
+
+#footer .tel {
+    font-size: 12px;
+    color: #8d8b8b;
+    margin-top: 13px;
+    line-height: 20px;
+}
+
