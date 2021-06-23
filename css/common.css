@@ -9,6 +9,14 @@
 #header .logo{position: relative;}
 #header .logo h1{position: absolute; top: 17px; left: 400px;}
 
+#header .membership {
+    position: absolute; 
+    top: 15px; right: 50px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
 #nav{position: relative;}
 #nav .depth1{position: absolute; 
     top: 10px; left: 40%; 
